@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CM DECOR - Decoração de Interiores</title>
+
+    <!-- Link de css para a formatação de fontes do google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+    <!-- Lind para ícones do fontawesome -->
+    <script src="https://kit.fontawesome.com/e4a30d19cc.js" crossorigin="anonymous"></script>
+    
+    <!-- Link de css para nosso arquivo styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS Embed -->
+    <style>
+        main{
+            background-image: url("img/sala_jantar2.jpg");
+            /* fixa a imagem ao fundo da tela */
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>CM DECOR</h1>
+        <span id="menu">
+            <i class="fas fa-bars" onclick="document.getElementsByTagName('nav')[0].style.left='0px'"></i>
+        </span>
+        <nav>
+            <span id="fechar">
+                <i class="fas fa-times" onclick="document.getElementsByTagName('nav')[0].style.left='-250px'"></i>
+            </span>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="projetos.html">projetos</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="painel"></div>
+        <section id="faixahome1">
+            <h2>Bem Vindo ao CM Decor</h2>
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, aspernatur iste numquam dolorum, distinctio aperiam officiis asperiores, nostrum atque quidem eveniet cupiditate ipsum laboriosam! Non facere fuga voluptate distinctio modi?
+                Inventore illo deleniti nostrum laboriosam veniam iste ad fugiat incidunt quam repudiandae provident qui quo, alias voluptate, animi, cupiditate minus praesentium aliquid enim mollitia pariatur numquam quae sunt. Autem, magni.
+                Voluptatibus, fugiat? Voluptate autem eligendi perspiciatis velit vitae officiis repellat quasi explicabo, laboriosam numquam odio consectetur dicta perferendis rem accusamus, necessitatibus veritatis labore saepe nulla. Dolorem deleniti saepe repellendus labore!
+                Ad qui fugiat recusandae, officia iste laborum temporibus totam aperiam accusamus eaque, laboriosam doloribus repellat. Numquam, repellat omnis illum saepe aliquid deserunt cumque fuga earum, impedit et porro, enim maxime!
+                Earum aliquid, corrupti repellendus atque ipsum laboriosam ab eius modi repudiandae! Consequatur numquam hic voluptas a earum excepturi ut, rerum aperiam aliquid nostrum. Numquam tempora quos repellat? Corporis, quis ratione.
+            </div>
+        </section>
+        <section id="faixahome2">
+            <h2>Clientes Realizados</h2>
+            <div id="clientes">
+                <div>
+                    <img src="img/pessoa1.png" alt="Marcos">
+                    <h3>Marcos</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus odit earum veniam possimus! Unde debitis repellendus dolore at pariatur iure cum. Voluptatibus placeat officia necessitatibus perferendis, adipisci cumque quidem ipsa.</p>
+                </div>
+                <div>
+                    <img src="img/pessoa2.jpg" alt="Márcis">
+                    <h3>Márcia</h3>
+                    <p>Ad, aliquam illo perspiciatis quae repudiandae hic dolore voluptatibus blanditiis at, ea ullam dicta enim libero quis excepturi distinctio necessitatibus earum incidunt aspernatur? Ipsa ab corporis esse blanditiis aperiam voluptates.</p>
+                </div>
+                <div>
+                    <img src="img/pessoa3.jpg" alt="Wagner">
+                    <h3>Wagner</h3>
+                    <p>Accusantium, atque, quasi explicabo necessitatibus culpa placeat cumque totam ullam, enim magni modi ratione quod in nostrum vitae perferendis ipsa nemo voluptate consequatur vel quos quia fugit ipsam tempore. Officia.</p>
+                </div>
+                <div>
+                    <img src="img/pessoa4.jpg" alt="Vanessa">
+                    <h3>Vanessa</h3>
+                    <p>Molestiae recusandae quo impedit provident maiores quod! Magni rem architecto quae vitae a, iure quod mollitia doloremque, autem quia ipsa dicta ducimus veniam voluptate officiis fuga aspernatur recusandae delectus soluta!</p>
+                </div>
+                <div>
+                    <img src="img/pessoa5.jpg" alt="Lígia">
+                    <h3>Lígia</h3>
+                    <p class="ajustePHome">Ratione est repellat architecto doloribus eum accusamus corporis perferendis natus, iure voluptatum quibusdam asperiores quos nobis obcaecati inventore nemo consectetur? Corrupti nesciunt repellat officiis at ratione sint aut autem necessitatibus?</p>
+                </div>
+            </div>
+        </section>
+        <section id="faixahome3">
+            <h2>O que fazemos</h2>
+            <div>
+                <iframe src="https://www.youtube.com/embed/lDa8iQtM6jM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="end"></div>
+        Rua Nova Esperança, 78 - São Paulo - SP <br>
+        Tel: 11 5564-4458 - contato@cmdecor.com.br
+        <div id="redes">
+            <nav>
+                <ul>
+                    <li><a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="http://www.instagram.com"><i class="fab fa-instagram-square"></i>
+                    <li><a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>
